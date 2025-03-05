@@ -40,11 +40,23 @@ ________________________________________________________________________________
 
 3. **Key Task-Specific Visuals**
    
-* **Task 1:** Average engagement rate & impressions (filtered by tweet conditions, time-based display).
+* **Task 1: Engagement Rate & Impressions Analysis**
+  * Create a visual displaying **average engagement rate** and **total impressions** for tweets posted between **January 1, 2020 – June 30, 2020**.
+  * Filter out tweets with **fewer than 100 impressions and 0 likes**.
+  * Restrict dashboard visibility to **3 PM – 5 PM IST**.
 
-* **Task 2:** Top 10 tweets by retweets & likes (filtered by even-numbered impressions, odd-numbered dates, <30 words).
+* **Task 2: Top 10 Tweets by Retweets & Likes**
+  * Identify the **top 10 tweets** based on **retweets and likes**.
+  * Exclude **weekend tweets**.
+  * Ensure impressions are **even-numbered**, tweet date is **odd-numbered**, and **word count is below 30**.
+  * Restrict dashboard visibility to 3 PM – 5 PM IST.
 
-* **Task 3:** Comparison of replies, retweets, and likes for high-media engagement tweets (filtered by date, media views, character count, and exclusion of tweets with "S").
+* **Task 3: Media Engagement and User Interaction**
+  * Compare **replies, retweets, and likes** for tweets with **above-median media engagement**.
+  * Include only tweets posted between **June and August 2020**.
+  * Apply filters: tweet date must be **odd**, media views must be **even**, character count must be **above 20**, and words containing **'S'** should be removed.
+  * Restrict dashboard visibility to **3 PM – 5 PM IST and 7 AM – 11 AM IST**.
+
 
 4. **User Interaction Metrics**
    
@@ -70,6 +82,12 @@ ________________________________________________________________________________
 * **Power BI:** For building visualizations and dynamic dashboards.
 * **Power Query:** For data cleaning and transformation.
 * **Data Source:** Twitter analytics data from Data World.
+_________________________________________________________________________________________________________________________________________
+
+# **Conclusion**
+The Twitter Analytics Dashboard project serves as an advanced analytics tool that leverages Power BI’s capabilities to provide structured and interactive insights into Twitter engagement metrics. By applying custom filters, time-based conditions, and interactive visualizations, the project enhances data-driven decision-making.
+
+Beyond this project, these skills can be applied to other real-world business intelligence scenarios, including social media monitoring, marketing analytics, and performance tracking. This experience will serve as a strong foundation for future roles in data analytics, business intelligence, and social media strategy.
 _________________________________________________________________________________________________________________________________________
 
 **Kavana M**
